@@ -1,0 +1,25 @@
+{
+    "manifest_version": 1,
+    "name": "Glue gauge",
+    "description": "Gauge to make sure you don't waste watts in the pack.",
+    "author": "Wout Van Den Driessche",
+    "website_url": "",
+    "version": "0.0.1",
+    "content_js": [],
+    "content_css": [],
+    "web_root": "pages",
+    "windows": [{
+        "file": "pages/glue-gauge.html",
+        "id": "glue-gauge",
+        "name": "Glue gauge",
+        "description": "This guage helps you pacing in the pack",
+        "overlay": true,
+        "frame": false,
+        "default_bounds": {
+            "width": 0.5,
+            "height": 500,
+            "x": 100,
+            "y": -100
+        }
+    }]
+}
