@@ -145,7 +145,7 @@ export function main() {
         Math.min(settings.refreshInterval * 1000, 1000)
       ),
       animationEasingUpdate: "linear",
-      tooltip: {},
+      tooltip: undefined,
       visualMap: config.visualMap,
       graphic: [
         {
